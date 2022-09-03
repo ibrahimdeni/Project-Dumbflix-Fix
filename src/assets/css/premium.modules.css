@@ -1,0 +1,9 @@
+.p__holderb::placeholder {
+    color:red;
+    font-weight:bolder;
+}
+
+.p__holdera::placeholder {
+    color:white;
+    font-weight:bolder;
+}

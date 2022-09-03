@@ -4,7 +4,7 @@ import {Button, Container, Nav, Navbar} from 'react-bootstrap';
 function NavigasiBar() {
 
 return (
-    <Navbar bg="dark" className='fixed-top' expand="md" style={{height:"9vh"}}>
+    <Navbar bg="dark" className='fixed-top' expand="md" style={{height:"9%"}}>
         <Container fluid>
             <Navbar.Toggle aria-controls="navbarScroll" />
             <div>
@@ -16,8 +16,8 @@ return (
                     </Nav>
                 </Navbar.Collapse>
             </div>
-            <div>
-                <img style={{height:"9%"}} src={logo} alt="" />
+            <div style={{height:"90%"}}>
+                <img src={logo} alt="" />
             </div>
             <div className='me-5 d-flex'>
                 <Navbar.Collapse id="navbarScroll">
